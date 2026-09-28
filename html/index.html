@@ -1,1 +1,80 @@
+ 
+<!--
+Descricao: Exercícios da Aula 02 - Introdução básica ao HTML e CSS
+nome_arquivo: index.html
+nome_exercicio: Atividade 02 - Introdução básica ao HTML e CSS
+nome_aluno: Lucas Samoel Bento de Farias
+email_aluno: lucas.farias5@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias News</title>
+    <!-- Estilos da página -->
+    <link rel="stylesheet" href="static/css/styles.css" > 
+</head>
+<body>
+    <!-- Aqui vai o cabeçalho da pagina, logo navegação -->
+   
+    <header>
+        <h1 class="logo">Noticias News</h1>
+     <nav>
+        <ul class="navegacao">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Categorias</a></li>
+            <li><a href="#">Notícias</a></li>
+        </ul>
+    </nav>
+    </header>
 
+    <!-- Conteúdo principal, isso aqui vai mudar de página para página -->
+    <main>
+        <h2 class="titulo-principal">Últimas Notícias</h2>
+        <article>
+            <a href="noticias.html" target="_blank">
+                <img src="static/images/thumb_galeria.jpg" alt="Foto da apreensão">
+                <h2>
+                    OLIMPIA: DROGA NO PORTA-MALAS!
+                    Motorista cai na malha da PM com
+                    1kg de droga e criança no banco de trás.
+                </h2>
+                 <p>
+                    Abordagem ocorreu na noite de terça-feira (22)
+                    na Vicinal José Recco...
+                </p>
+                <!--noticia 2-->
+        </article>
+
+        <article class="card-noticia">
+
+            <a href="noticias2.html" target="_blank">
+
+                <img src="static/images/medico.jpg" alt="Médico">
+                    <h2>
+                        Notícias da área da saúde
+                    </h2>
+                    <p>
+                        Confira as principais informações...
+                    </p>
+            </a>
+
+        </article>
+    </main>
+
+    <!-- Rodapé não muda-->
+    <footer>
+        <h3 class="logo-footer">Noticias News</h3>
+        <p class="contato-footer">Entre em contato conosco:</p>
+        <p class="contato-footer">Email: noticiasnews@hotmail.com</p>
+        <p class="contato-footer">Telefone: (17) 99134-0877</p>
+
+    <a class="sobre" href="#">Sobre nós</a>
+    <a class="sobre" href="#">Política de Privacidade</a>
+    <a class="sobre" href="#">Termos de Uso</a>
+    <p class="direitos">2026 Noticias News - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
