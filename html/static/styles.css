@@ -1,0 +1,87 @@
+/*
+Descricao: Exercícios da Aula 02 - Introdução básica ao HTML e CSS
+nome_arquivo: index.html
+nome_exercicio: Atividade 02 - Introdução básica ao HTML e CSS
+nome_aluno: Lucas Samoel Bento de Farias
+email_aluno: lucas.farias5@aluno.cps.sp.gov.br
+turma: WEBI-ISW028-A
+-->Descricao: Exercícios da Aula 02 - Introdução básica ao HTML e CSS
+nome_arquivo: index.html
+nome_exercicio: Atividade 02 - Introdução básica ao HTML e CSS
+nome_aluno: Seu Nome Completo
+email_aluno: seu.email@exemplo.com
+turma: Código da Turma
+*/
+/* Seletor universal, zera a margens... */
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/* Cabeçalio site */
+header{
+    background-color: #1e40af;
+    align-items: center;
+    display: flex;
+    padding: 0 20px; 
+    height: 80px;
+    font-family: arial, sans-serif;
+}
+nav{
+    margin-left: auto;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.navegacao{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.logo{
+    color: white;
+}
+
+/*Conteúdo principal, isso aqui vai mudar de página para página*/
+.titulo-principal{
+    color: #1e40af;
+    font-family: arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    border-left: 5px solid yellow;
+}
+main{
+    width: 90%;
+    max-width: 1150px;
+    margin: 40px auto;
+}
+.noticias {
+    font-family: arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #333;
+}
+.embaixo-img{
+    color: rgb(75, 75, 184);
+    font-size: 12px;
+    font-family: arial, sans-serif;
+}
+/*Roda pé da página*/
+footer{
+    background-color: #1e40af;
+    color: white;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h3{
+    font-family: arial, sans-serif;
+    color: white;
+}
+nav a, .sobre{
+    color: rgb(228, 194, 194);
+    text-align: center;
+    margin: 6px;
+}
